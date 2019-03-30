@@ -17,8 +17,8 @@ script = ExtResource( 1 )
 Mob = ExtResource( 2 )
 
 [node name="Background" type="ColorRect" parent="."]
-margin_right = 480.0
-margin_bottom = 600.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 color = Color( 0.180392, 0.117647, 0.941176, 1 )
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
